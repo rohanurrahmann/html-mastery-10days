@@ -24,7 +24,7 @@ This repo is my **public learning journal** — a record of my growth as a futur
 | Day 03 | Paragraphs, Line Breaks & `<pre>` | ✅ Done |
 | Day 04 | Style Attribute & Google Fonts | ✅ Done |
 | Day 05 | Text Formatting Tags | ✅ Done |
-| Day 06 | Coming Soon... | ⏳ |
+| Day 06 | Quotations, Citations & Comments | ✅ Done |
 | Day 07 | Coming Soon... | ⏳ |
 | Day 08 | Coming Soon... | ⏳ |
 | Day 09 | Coming Soon... | ⏳ |
@@ -48,6 +48,7 @@ html-mastery-10days/
     ├── day03-paragraphs.html
     ├── day04-styles.html
     └── day05-formatting.html
+    └── day06-quotations.html
 ```
 
 ---
