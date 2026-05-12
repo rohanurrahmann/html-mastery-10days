@@ -38,10 +38,10 @@ html-mastery-10-day-challenge/
 ├── README.md                          ← You are here
 │
 ├── Notes/
-│   ├── day01-notes.md                 ← Study notes: Days 01–03 (current)
-│   ├── day04-06-notes.md              ← To be added
-│   └── day07-10-notes.md              ← To be added
-│
+    ├── day01-notes.md
+    ├── day02-notes.md  ✅
+    ├── day03-notes.md  ✅
+    │
 ├── Day01/
 │   ├── day01-structure.html
 │   ├── day01-attributes.html
