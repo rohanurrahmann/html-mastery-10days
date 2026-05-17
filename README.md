@@ -20,8 +20,8 @@ Tracking my growth as a future web developer, one day at a time. 🚀
 | Day 01 | HTML Structure, Attributes, Paragraphs, Styles, Formatting | `Day01/` — 5 files | ✅ Done |
 | Day 02 | HTML Quotations & Citations | `Day02/` — 1 file | ✅ Done |
 | Day 03 | CSS in HTML (Inline, Internal, External) | `Day03/` — 2 files | ✅ Done |
-| Day 04 | HTML Links & Images | `Day04/` | ⏳ Upcoming |
-| Day 05 | HTML Lists & Tables | `Day05/` | ⏳ Upcoming |
+| Day 04 | HTML HTML Images & Favicons | `Day04/` | ⏳ Upcoming |
+| Day 05 | HTML Lists & Tables | `Day05/` | ✅ Done |
 | Day 06 | HTML Forms & Inputs | `Day06/` | ⏳ Upcoming |
 | Day 07 | Semantic HTML Elements | `Day07/` | ⏳ Upcoming |
 | Day 08 | HTML Media (Audio, Video, Iframe) | `Day08/` | ⏳ Upcoming |
@@ -56,7 +56,9 @@ html-mastery-10-day-challenge/
 │   ├── day03-css-in-html.html
 │   └── style.css
 │
-├── Day04/                             ← Coming next
+├── Day04/
+    ├──image.html
+    ├──favicon.html                        
 ├── Day05/
 ├── Day06/
 ├── Day07/
