@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript in HTML</title>
+  <!-- Internal JS in <head> (Not recommended - blocks page load) -->
+  <script>
+    alert('This is Alert 1 — from <head> (internal)');
+  </script>
+</head>
+<body>
+
+  <h1>1. Inline JavaScript</h1>
+  <p>Code placed directly inside HTML element attributes (e.g., <code>onclick</code>).</p>
+  <button onclick="alert('Do you like the video?')">Click Me (Inline JS)</button>
+
+  <hr>
+
+  <h1>2. Internal JavaScript (Bottom of Body — Better Practice)</h1>
+  <p>Script block placed at the bottom of <code>&lt;body&gt;</code> so the page loads first.</p>
+  <button onclick="promptUser()">Click Me (Internal JS)</button>
+
+  <hr>
+
+  <h1>3. External JavaScript (Best Practice)</h1>
+  <p>Logic lives in a separate <code>app.js</code> file — keeps HTML clean.</p>
+  <!-- External JS loaded at the bottom -->
+  <script src="app.js"></script>
+
+  <!-- Internal JS at bottom (better than in <head>) -->
+  <script>
+    function promptUser() {
+      alert('Hello from Internal JavaScript!');
+    }
+  </script>
+
+</body>
+</html>
