@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Lists – Day 06</title>
+  <!-- BUG FIX: was "list.csss" (extra 's') — corrected to "list.css" -->
+  <link rel="stylesheet" href="list.css">
+</head>
+<body>
+
+  <!-- =========================================
+       UNORDERED LIST AS NAVIGATION MENU
+       Using list-style-type: none removes the bullets,
+       turning the list into a clean nav menu.
+  ========================================= -->
+  <h2>Navigation Menu Using &lt;ul&gt;</h2>
+  <hr>
+  <ul style="list-style-type: none;">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Blog</a></li>
+  </ul>
+
+  <!-- =========================================
+       UNORDERED LIST — with square bullets
+       list-style-type values: disc (default), circle, square, none
+  ========================================= -->
+  <h2>Unordered List (Bullet List)</h2>
+  <ul style="list-style-type: square;">
+    <li>HTML</li>
+    <li>CSS</li>
+    <!-- BUG FIX: the closing </li> tag was missing on this item -->
+    <li>JavaScript</li>
+  </ul>
+
+  <!-- =========================================
+       ORDERED LIST — with Roman numeral numbering
+       type values: 1 (numbers), A (uppercase), a (lowercase),
+                    I (uppercase Roman), i (lowercase Roman)
+  ========================================= -->
+  <h2>Ordered List (Numbered List)</h2>
+  <ol type="i">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML id and class – Day 06</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>HTML <code>id</code> and <code>class</code></h1>
+
+  <!-- =========================================
+       CLASS — used for multiple elements
+       A class can be reused on many elements.
+       Use a dot (.) to target it in CSS: .two { }
+  ========================================= -->
+
+  <!-- Single class: class="two" -->
+  <div class="two">
+    <h2>Single Class Example</h2>
+    <p>This div has one class: <code>class="two"</code>. It gets the blue background from the <code>.two</code> CSS rule.</p>
+    <a href="#">Read more</a>
+  </div>
+
+  <!-- Multiple classes: class="two title"
+       An element can have more than one class.
+       Just separate them with a space. -->
+  <div class="two title">
+    <h2>Multiple Classes Example</h2>
+    <p>This div has TWO classes: <code>class="two title"</code>. It gets styles from BOTH <code>.two</code> and <code>.title</code> rules combined.</p>
+    <a href="#">Read more</a>
+  </div>
+
+  <!-- Another single class: class="three" -->
+  <div class="three">
+    <h2>Another Class Example</h2>
+    <p>This div has <code>class="three"</code>. Different class = different background color defined in CSS.</p>
+    <a href="#">Read more</a>
+  </div>
+
+  <!-- =========================================
+       ID — used for ONE unique element only
+       An id must be unique on the page.
+       Use a hash (#) to target it in CSS: #four { }
+  ========================================= -->
+
+  <!-- id="four" — used only ONCE on this page -->
+  <div id="four">
+    <h2>ID Example (Unique)</h2>
+    <p>This div has <code>id="four"</code>. IDs are unique — only ONE element per page should have the same id. Target it in CSS with <code>#four</code>.</p>
+    <a href="#">Read more</a>
+  </div>
+
+</body>
+</html>

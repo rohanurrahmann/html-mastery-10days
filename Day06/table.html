@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tables – Day 06</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================
+       HORIZONTAL TABLE
+       Headers (<th>) go in the FIRST ROW.
+       Data rows (<td>) come below.
+       This is the most common table layout.
+  ========================================= -->
+  <h1>Horizontal Table</h1>
+  <hr>
+
+  <table>
+    <!-- Header row -->
+    <tr>
+      <th>Serial</th>
+      <th>Name</th>
+      <!-- BUG FIX: "Adress" corrected to "Address" -->
+      <th>Address</th>
+      <th>Phone</th>
+    </tr>
+
+    <!-- Data rows -->
+    <tr>
+      <td>01</td>
+      <td>Rohan</td>
+      <td>Rajshahi</td>
+      <td>01xxxxxxxxx</td>
+    </tr>
+
+    <tr>
+      <td>02</td>
+      <td>Jibon</td>
+      <td>Dhaka</td>
+      <td>01xxxxxxxxx</td>
+    </tr>
+
+    <tr>
+      <td>03</td>
+      <td>Noyon</td>
+      <td>Natore</td>
+      <td>01xxxxxxxxx</td>
+    </tr>
+  </table>
+
+  <!-- =========================================
+       VERTICAL TABLE
+       Headers (<th>) go in the FIRST COLUMN.
+       Data values spread across columns to the right.
+       Useful when you want to read the table top-to-bottom
+       instead of left-to-right.
+  ========================================= -->
+  <!-- BUG FIX: "Verticle" corrected to "Vertical" -->
+  <h2>Vertical Table</h2>
+  <hr>
+
+  <table>
+    <tr>
+      <th>Serial</th>
+      <td>01</td>
+      <td>02</td>
+      <td>03</td>
+    </tr>
+
+    <tr>
+      <th>Name</th>
+      <td>Rohan</td>
+      <td>Jibon</td>
+      <td>Rony</td>
+    </tr>
+
+    <tr>
+      <th>Address</th>
+      <td>Rajshahi</td>
+      <td>Dhaka</td>
+      <td>Natore</td>
+    </tr>
+
+    <tr>
+      <th>Phone</th>
+      <td>01xxxxxxxxx</td>
+      <td>01xxxxxxxxx</td>
+      <td>01xxxxxxxxx</td>
+    </tr>
+  </table>
+
+</body>
+</html>

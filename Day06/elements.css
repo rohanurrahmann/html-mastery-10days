@@ -1,0 +1,25 @@
+/* elements.css — styles for block_and_inline_elements.html */
+
+/* Highlight block elements with a visible border so you can SEE
+   that they take the full width */
+h1, h2, h3, p {
+  border: 2px solid #ddd;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+}
+
+/* Highlight inline elements with a colored border so you can SEE
+   that they only take as much space as their content */
+strong, a {
+  border: 2px solid #f4a261;
+  padding: 2px 4px;
+}
+
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  color: #333;
+}

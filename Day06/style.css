@@ -1,0 +1,62 @@
+/* style.css — shared styles for id_and_class.html and table.html */
+
+/* ── TABLE STYLES ──────────────────────────────── */
+
+table, tr, td, th {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+/* ── ID & CLASS DEMO STYLES ────────────────────── */
+
+/* Default style for ALL divs */
+div {
+  background: green;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Make text readable on colored backgrounds */
+h2, p, a {
+  color: white;
+}
+
+/* .two class — overrides the green default */
+.two {
+  background: #0095af;
+}
+
+/* .three class — overrides the green default */
+.three {
+  background: #003e9b;
+}
+
+/* #four id — overrides the green default
+   IDs have higher specificity than classes */
+#four {
+  background: #b30177;
+}
+
+/* .title class — can be combined with other classes
+   NOTE: font-color is NOT a valid CSS property.
+   The correct property is "color". Fixed below. */
+.title {
+  font-size: 25px;
+  color: #ffe0f5;  /* was "font-color" which is invalid — fixed to "color" */
+}
+
+/* ── PAGE LAYOUT ────────────────────────────────── */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  color: #333;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block vs Inline Elements – Day 06</title>
+  <link rel="stylesheet" href="elements.css">
+</head>
+<body>
+
+  <!-- =========================================
+       BLOCK ELEMENTS
+       Block elements always start on a new line
+       and take the full width available.
+  ========================================= -->
+  <h1>Block Elements vs Inline Elements</h1>
+
+  <h2>What is a Block Element?</h2>
+  <p>A <strong>block element</strong> always starts on a new line and stretches the full width of its container.</p>
+
+  <!-- Example: h1 and p are block elements -->
+  <h3>Example: &lt;h1&gt; and &lt;p&gt; are block elements</h3>
+  <h1>This H1 takes the full width (block)</h1>
+  <p>This paragraph also takes the full width (block).</p>
+
+  <!-- =========================================
+       INLINE ELEMENTS
+       Inline elements do NOT start on a new line.
+       They only take as much width as needed.
+  ========================================= -->
+  <h2>What is an Inline Element?</h2>
+  <p>An <strong>inline element</strong> does NOT start on a new line. It only takes as much space as its content needs.</p>
+
+  <!-- Example: <strong> and <a> are inline — they sit side by side -->
+  <h3>Example: &lt;strong&gt; and &lt;a&gt; are inline elements</h3>
+  <p>
+    <strong>Bold text (inline)</strong>
+    and
+    <a href="#">a link (inline)</a>
+    sit side by side in the same line.
+  </p>
+
+  <!-- =========================================
+       IMPORTANT RULE
+       Always nest inline elements INSIDE block elements.
+       Never put a block element inside an inline element.
+  ========================================= -->
+  <h2>Important Rule</h2>
+  <p>Always place <strong>inline elements inside block elements</strong> — not the other way around.</p>
+
+  <!-- =========================================
+       FULL REFERENCE LIST
+  ========================================= -->
+  <h2>Common Block-Level Elements</h2>
+  <p>
+    &lt;address&gt; &lt;article&gt; &lt;aside&gt; &lt;blockquote&gt;
+    &lt;canvas&gt; &lt;dd&gt; &lt;div&gt; &lt;dl&gt; &lt;dt&gt;
+    &lt;fieldset&gt; &lt;figcaption&gt; &lt;figure&gt; &lt;footer&gt;
+    &lt;form&gt; &lt;h1&gt;–&lt;h6&gt; &lt;header&gt; &lt;hr&gt;
+    &lt;li&gt; &lt;main&gt; &lt;nav&gt; &lt;noscript&gt; &lt;ol&gt;
+    &lt;p&gt; &lt;pre&gt; &lt;section&gt; &lt;table&gt; &lt;tfoot&gt;
+    &lt;ul&gt; &lt;video&gt;
+  </p>
+
+  <h2>Common Inline Elements</h2>
+  <p>
+    &lt;a&gt; &lt;abbr&gt; &lt;b&gt; &lt;br&gt; &lt;button&gt;
+    &lt;cite&gt; &lt;code&gt; &lt;em&gt; &lt;i&gt; &lt;img&gt;
+    &lt;input&gt; &lt;label&gt; &lt;output&gt; &lt;q&gt; &lt;select&gt;
+    &lt;small&gt; &lt;span&gt; &lt;strong&gt; &lt;sub&gt; &lt;sup&gt;
+    &lt;textarea&gt; &lt;time&gt;
+  </p>
+
+</body>
+</html>

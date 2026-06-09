@@ -1,0 +1,32 @@
+/* list.css — styles for list.html */
+
+/* Remove default margin and padding from all ul elements.
+   This gives us a clean starting point for custom styling. */
+ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Make nav links inline so they sit side by side,
+   and add some spacing for a proper nav appearance */
+ul li a {
+  display: inline-block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #0095af;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #b30177;
+}
+
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px;
+  color: #333;
+}
