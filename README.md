@@ -23,7 +23,7 @@ Tracking my growth as a future web developer, one day at a time. 🚀
 | Day 04 | HTML Images & Favicons | `Day04/` — 2 files | ✅ Done |
 | Day 05 | HTML Lists & Tables | `Day05/` | ✅ Done |
 | Day 06 | Block & Inline Elements · CSS Class & ID · Lists · Tables | `Day06/` — 8 files | ✅ Done |
-| Day 07 | Semantic HTML Elements | `Day07/` | ⏳ Upcoming |
+| Day 07 | Day 07 — Forms, Iframe & Multimedia | `Day07/` | ✅ Done |
 | Day 08 | HTML Media (Audio, Video, Iframe) | `Day08/` | ⏳ Upcoming |
 | Day 09 | HTML5 APIs & Meta Tags | `Day09/` | ⏳ Upcoming |
 | Day 10 | Final Project — Full Webpage Build | `Day10/` | ⏳ Upcoming |
@@ -73,6 +73,14 @@ html-mastery-10-day-challenge/
 │   └── README.md
 │
 ├── Day07/
+README.md
+audio.mp3
+form.html
+iframe.html
+multimedia.html
+style.css
+video.mp4
+README.md
 ├── Day08/
 ├── Day09/
 └── Day10/
