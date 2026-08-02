@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout in HTML</title>
+  <!-- External CSS file linked here; style.css handles all design, colors, and spacing -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER SECTION ================= -->
+  <!-- The header tag creates the top part of the page, usually the site name/logo -->
+  <header>
+    <h2>Rohanur Rahman</h2>
+  </header>
+
+  <!-- ================= NAVIGATION SECTION ================= -->
+  <!-- The nav tag builds the navigation menu; ul-li lists the menu items -->
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Service</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ================= WELCOME / HERO SECTION ================= -->
+  <!-- This is a banner/hero section used to welcome the visitor -->
+  <section id="welcome">
+    <h2>Welcome to my HTML site</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat officia tempora velit deserunt culpa. Quibusdam iste dolores accusamus nemo provident recusandae cupiditate tenetur perferendis consectetur, at, saepe consequuntur perspiciatis.</p>
+    <a href="">Learn More</a>
+  </section>
+
+  <!-- ================= MAIN CONTENT + SIDEBAR SECTION ================= -->
+  <!-- This section uses "display: flex" in CSS to split into 2 columns: main content (div) and sidebar (aside) -->
+  <section>
+
+    <!-- Main content box, takes flex-basis 60% width -->
+    <div>
+      <h2>This is Container</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae cumque commodi accusantium similique vel aspernatur veritatis sint dicta, earum doloremque.</p>
+      <button>Contact Us</button>
+    </div>
+
+    <!-- Sidebar box, takes flex-basis 38% width, holds latest post links -->
+    <aside>
+      <h2>Latest Post</h2>
+      <!-- The li items are now wrapped inside a ul, which makes this valid HTML structure -->
+      <ul>
+        <li><a href="">Post</a></li>
+        <li><a href="">Post</a></li>
+        <li><a href="">Post</a></li>
+        <li><a href="">Post</a></li>
+      </ul>
+    </aside>
+
+  </section>
+
+  <!-- ================= FOOTER SECTION ================= -->
+  <!-- The footer sits at the very bottom of the page, showing copyright info -->
+  <footer>
+    <p>All Rights Reserved by Rohanur Rahman</p>
+  </footer>
+
+</body>
+</html>
